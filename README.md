@@ -8,6 +8,7 @@ Alayout Atom 自动提示插件
 https://atom.io/
 
 2 命令行运行 或者 通过 atom 搜索 alayout 找到 autocomplete-alayout 进行安装
+
   apm install autocomplete-alayout
   
 3 安装完成重启 atom
