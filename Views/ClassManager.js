@@ -406,33 +406,36 @@ export default class ClassManager
             subdirs.forEach(function(subdir) {
                 allResName[subdir] = []
                 let subfullpath = path.resolve(resourceRootPath, subdir)
-                let files = fs.readdirSync(subfullpath);
-                files.forEach(function (filename) {
-                    var fullname = path.join(subfullpath, filename)
-                    var stats = fs.statSync(fullname)
-                    if (stats.isFile())
-                    {
-                        if(subdir === 'values')
+                if(fs.existsSync(subfullpath))
+                {
+                    let files = fs.readdirSync(subfullpath);
+                    files.forEach(function (filename) {
+                        var fullname = path.join(subfullpath, filename)
+                        var stats = fs.statSync(fullname)
+                        if (stats.isFile())
                         {
-                            allResName[subdir] = allResName[subdir] || {}
-                            readResourceValues(fullname, allResName[subdir])
-                        }
-                        else
-                        {
-                            let filename = path.parse(fullname).name
-                            if(subdir === 'script' && filename === 'main')
+                            if(subdir === 'values')
                             {
-                                return;
+                                allResName[subdir] = allResName[subdir] || {}
+                                readResourceValues(fullname, allResName[subdir])
                             }
-                            let matchNamePre = filename.match(/(.+)(?:@1x|@2x|@3x|@4x)/)
-                            if(matchNamePre && matchNamePre.length >= 2)
+                            else
                             {
-                                filename = matchNamePre[1]
+                                let filename = path.parse(fullname).name
+                                if(subdir === 'script' && filename === 'main')
+                                {
+                                    return;
+                                }
+                                let matchNamePre = filename.match(/(.+)(?:@1x|@2x|@3x|@4x)/)
+                                if(matchNamePre && matchNamePre.length >= 2)
+                                {
+                                    filename = matchNamePre[1]
+                                }
+                                allResName[subdir].push(filename)
                             }
-                            allResName[subdir].push(filename)
                         }
-                    }
-                })
+                    })
+                }
             })
             this.configResource(allResName)
         }
