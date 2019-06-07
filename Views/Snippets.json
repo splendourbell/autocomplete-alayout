@@ -1,0 +1,88 @@
+[
+  {
+    "name": "RelativeLayout",
+    "description": "这里是创建了一个TextView的代码",
+    "body": {
+      "class": "RelativeLayout",
+      "layout_width": "match_parent",
+      "layout_height": "wrap_content",
+      "background": "@color/blue",
+      "children": []
+    }
+  },
+  {
+    "name": "LinearLayout",
+    "description": "这里是创建了一个LinearLayout的代码",
+    "body": {
+      "class": "LinearLayout",
+      "layout_width": "match_parent",
+      "layout_height": "wrap_content",
+      "orientation": "vertical",
+      "children": []
+    }
+  },
+  {
+    "name": "View",
+    "description": "这里是创建了一个View的代码",
+    "body": {
+      "class": "View",
+      "layout_width": "match_parent",
+      "layout_height": "1px",
+      "background": "#0a000000"
+    }
+  },
+  {
+    "name": "Button",
+    "description": "这里是创建了一个Button的代码",
+    "body": {
+      "class": "Button",
+      "layout_width": "wrap_content",
+      "background": "@color/red",
+      "text": "btn"
+    }
+  },
+  {
+    "name": "ImageView",
+    "description": "这里是创建了一个ImageView的代码",
+    "body": {
+      "class": "ImageView",
+      "layout_width": "wrap_content",
+      "layout_height": "wrap_content",
+      "src": "@drawable/default",
+      "scaleType": "centerCrop",
+      "id": "image"
+    }
+  },
+  {
+    "name": "TextView",
+    "description": "这里是创建了一个TextView的代码",
+    "body": {
+      "class": "TextView",
+      "layout_width": "wrap_content",
+      "layout_height": "wrap_content",
+      "ellipsize": "end",
+      "lines": "1",
+      "textColor": "#000",
+      "textSize": "14dp",
+      "text": "------"
+    }
+  },
+  {
+    "name": "SwitchControl",
+    "description": "这里是创建了一个SwitchControl代码",
+    "body": {
+      "class": "SwitchControl",
+      "layout_height": "100dp",
+      "layout_width": "100dp",
+      "on": "true"
+    }
+  },
+  {
+    "name": "include",
+    "description": "这里是创建了一个include代码",
+    "body": {
+      "class": "include",
+      "layout": "@layout/$1"
+    }
+  }
+]

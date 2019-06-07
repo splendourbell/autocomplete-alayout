@@ -1,0 +1,40 @@
+{
+    "class":"LinearLayout",
+    "parent":"ViewGroup",
+    "layoutClass":"LinearLayoutParams",
+    "properties":
+    {
+        "gravity":
+        {
+            "type":"Gravity"
+        },
+        "measureWithLargestChild":
+        {
+            "type":"Bool"
+        },
+        "weightSum":
+        {
+            "type":"Float"
+        },
+        "divider":
+        {
+            "type":"Drawable"
+        },
+        "dividerPadding":
+        {
+            "type":"Dimension"
+        },
+        "showDividers":
+        {
+            "suffix":["beginning","middle","end"]
+        },
+        "orientation":
+        {
+            "suffix":["vertical", "horizontal"]
+        }
+    },
+    "layoutParams":
+    {
+
+    }
+}

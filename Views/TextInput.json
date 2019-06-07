@@ -1,0 +1,40 @@
+{
+  "class": "TextInput",
+  "parent": "TextView",
+  "properties": {
+    "hint": {
+      "type": "String"
+    },
+
+    "numberic": {
+      "type": "String"
+    },
+
+    "password": {
+      "type": "Bool"
+    },
+
+    "phoneNumber": {
+      "type": "Bool"
+    },
+
+    "textColorHighlight": {
+      "type": "Bool"
+    },
+
+    "editable": {
+      "type": "Bool"
+    },
+
+    "inputType": {
+      "type": "String",
+      "suffix": ["textUri", "textEmailAddress", "textPersonName", "textPassword", "numberPassword", "number", "numberSigned", "numberDecimal", "phone"]
+    },
+
+    "returnKeyType": {
+      "type": "String",
+      "suffix": ["Default","Go","Google","Join","Next","Route","Search","Send","Yahoo","Done","EmergencyCall","Continue"]
+    }
+
+  }
+}

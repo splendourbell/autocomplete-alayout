@@ -1,0 +1,8 @@
+{
+    "class":"Banner",
+    "parent": "RelativeLayout",
+    "layoutClass":"RelativeLayoutParams",
+    "properties":
+    {
+    }
+}

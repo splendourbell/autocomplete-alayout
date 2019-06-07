@@ -1,0 +1,25 @@
+{
+    "class":"SwitchControl",
+    "parent":"View",
+    "properties":
+    {
+        "on":
+        {
+            "type":"Bool",
+            "default":"true"
+        },
+        "onImage":
+        {
+            "type":"Drawable"
+        },
+        "offImage":
+        {
+            "type":"Drawable"
+        },
+        "enabled":
+        {
+            "type":"Bool",
+            "default":true
+        }
+    }
+}

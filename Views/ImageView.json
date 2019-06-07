@@ -1,0 +1,52 @@
+{
+  "class": "ImageView",
+  "parent": "View",
+  "properties": {
+    "scaleType": {
+      "suffix": [
+        "matrix",
+        "fitXY",
+        "fitStart",
+        "fitCenter",
+        "fitEnd",
+        "center",
+        "centerCrop",
+        "centerInside"
+      ]
+    },
+    "adjustViewBounds": {
+      "type": "Bool"
+    },
+    "maxWidth": {
+      "type": "Dimension"
+    },
+    "maxHeight": {
+      "type": "Dimension"
+    },
+    "src": {
+      "type": "Drawable",
+      "description": "a drawable"
+    },
+    "roundAsCircle": {
+      "type": "Bool"
+    },
+    "radius": {
+      "type": "Dimension"
+    },
+    "topLeftRadius": {
+      "type": "Dimension"
+    },
+    "topRightRadius": {
+      "type": "Dimension"
+    },
+    "bottomRightRadius": {
+      "type": "Dimension"
+    },
+    "bottomLeftRadius": {
+      "type": "Dimension"
+    },
+    "aspectRatio": {
+      "type": "Float"
+    }
+  }
+}

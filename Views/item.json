@@ -1,0 +1,28 @@
+{
+    "class":"item",
+    "properties":
+    {
+        "color":{
+            "type":"Color"
+        },
+        "drawable":{
+            "type":"Drawable"
+        },
+
+        "state_pressed":{
+        	"type":"Bool"
+        },
+
+        "state_enabled":{
+        	"type":"Bool"
+        },
+
+        "state_checked":{
+        	"type":"Bool"
+        },
+
+        "state_selected":{
+        	"type":"Bool"
+        }
+    }
+}

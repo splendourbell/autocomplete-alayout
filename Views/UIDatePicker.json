@@ -1,0 +1,19 @@
+{
+  "class": "UIDatePicker",
+  "parent": "View",
+  "properties": {
+      "minimumDate": {
+          "type": "Date"
+      },
+      "maximumDate": {
+          "type": "Date"
+      },
+      "date": {
+          "type": "Date"
+      },
+      "datePickerMode": {
+          "type": "String",
+          "suffix": ["Time","Date","DateAndTime","DownTimer"]
+      }
+  }
+}

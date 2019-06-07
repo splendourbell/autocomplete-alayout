@@ -1,0 +1,14 @@
+{
+    "class": "LayoutParams",
+    "properties":
+    {
+        "layout_width":
+        {
+            "type":"Dimension"
+        },
+        "layout_height":
+        {
+            "type":"Dimension"
+        }
+    }
+}

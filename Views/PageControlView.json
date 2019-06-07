@@ -1,0 +1,22 @@
+{
+    "class":"PageControlView",
+    "parent":"View",
+    "properties":
+    {
+        "numberOfPages":{
+            "type":"Int"
+        },
+        
+        "currentPage":{
+            "type":"Int"
+        },
+
+        "spacing":{
+            "type":"Float"
+        },
+
+        "pageLayout":{
+            "type":"String"
+        }
+    }
+}

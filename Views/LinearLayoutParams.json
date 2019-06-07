@@ -1,0 +1,15 @@
+{
+    "class":"LinearLayoutParams",
+    "parent":"MarginLayoutParams",
+    "properties":
+    {
+        "layout_gravity":
+        {
+            "type":"Gravity"
+        },
+        "layout_weight":
+        {
+            "type":"String"
+        }
+    }
+}

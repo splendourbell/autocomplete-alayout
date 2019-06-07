@@ -1,0 +1,43 @@
+{
+    "class": "TableView",
+    "parent": "View",
+    "layoutClass": "RelativeLayoutParams",
+    "properties": {
+        "contentInset": {
+            "type": "UIEdgeInsets"
+        },
+        "bounces": {
+            "type": "Bool"
+        },
+        "alwaysBounceHorizontal": {
+            "type": "Bool"
+        },
+        "pagingEnabled": {
+            "type": "Bool"
+        },
+        "scrollEnabled": {
+            "type": "Bool"
+        },
+        "showsHorizontalScrollIndicator": {
+            "type": "Bool"
+        },
+        "directionalLockEnabled": {
+            "type": "Bool"
+        },
+        "inset":{
+            "type":"Dimension"
+        },
+        "insetLeft":{
+            "type":"Dimension"
+        },
+        "insetTop":{
+            "type":"Dimension"
+        },
+        "insetRight":{
+            "type":"Dimension"
+        },
+        "insetBottom":{
+            "type":"Dimension"
+        }
+    }
+}

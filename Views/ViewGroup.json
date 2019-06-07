@@ -1,0 +1,8 @@
+{
+    "class":"ViewGroup",
+    "parent":"View",
+    "layoutClass":"MarginLayoutParams",
+    "properties":
+    {
+    }
+}

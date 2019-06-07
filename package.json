@@ -1,0 +1,42 @@
+{
+  "name": "autocomplete-alayout",
+  "main": "./lib/autocomplete-alayout",
+  "version": "0.0.0",
+  "description": "A short description of your package",
+  "keywords": [
+  ],
+  "activationCommands": {
+    "atom-workspace": "autocomplete-alayout:toggle"
+  },
+
+  "providedServices": {
+    "autocomplete.provider": {
+      "versions": {
+        "2.0.0": "provideAutocompleteAlayout"
+      }
+    }
+ },
+
+  "repository": "https://git.oschina.net/splendourbell/atom-alayout.git",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+    "axios": "^0.15.3",
+    "file-url": "^1.1.0",
+    "jaro-winkler": "^0.2.6",
+    "lodash": "4.17.4",
+    "minimatch": "^3.0.0",
+    "npm-package-lookup": "^1.0.0",
+    "packagist-package-lookup": "^1.0.0",
+    "query-string": "^3.0.0",
+    "tokenizer2": "^1.2.0",
+    "uri-js": "^2.1.1",
+    "valid-url": "^1.0.9"
+  },
+  "activationHooks": [
+    "language-json:grammar-used",
+    "language-json-comments:grammar-used"
+  ]
+}

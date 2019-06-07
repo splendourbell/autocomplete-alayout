@@ -1,0 +1,18 @@
+{
+    "class":"gradient",
+    "properties":
+    {
+        "startColor":{
+        	"type":"Color"
+        },
+        "centerColor":{
+        	"type":"Color"
+        },
+        "endColor":{
+        	"type":"Color"
+        },
+        "angle":{
+        	"type":"Int"
+        }
+    }
+}

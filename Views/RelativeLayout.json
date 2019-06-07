@@ -1,0 +1,16 @@
+{
+	"class":"RelativeLayout",
+	"parent":"ViewGroup",
+	"layoutClass":"RelativeLayoutParams",
+	"properties":
+	{
+		"gravity":
+		{
+			"type":"Gravity"
+		},
+		"ignoreGravity":
+		{
+			"type":"String"
+		}
+	}
+}

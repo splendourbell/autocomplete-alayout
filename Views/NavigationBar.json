@@ -1,0 +1,8 @@
+{
+    "class": "NavigationBar",
+    "parent": "ViewGroup",
+    "layoutClass":"FlowLayoutParams",
+    "properties":
+    {
+    }
+}

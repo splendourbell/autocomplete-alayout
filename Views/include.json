@@ -1,0 +1,18 @@
+{
+    "class":"include",
+    "properties":
+    {
+        "layout":
+        {
+            "type":"Layout"
+        },
+        "layout_width":
+        {
+            "type":"Dimension"
+        },
+        "layout_height":
+        {
+            "type":"Dimension"
+        }
+    }
+}

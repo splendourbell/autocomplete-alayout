@@ -1,0 +1,9 @@
+{
+    "class":"shape",
+    "properties":
+    {
+        "shape":{
+            "suffix":["rectangle", "oval", "line","ring"]
+        }
+    }
+}

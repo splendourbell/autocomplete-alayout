@@ -1,0 +1,10 @@
+{
+    "class":"Class",
+    "properties":
+    {
+        "class":
+        {
+            "type":"String"
+        }
+    }
+}

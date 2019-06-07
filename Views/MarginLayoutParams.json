@@ -1,0 +1,27 @@
+{
+    "class":"MarginLayoutParams",
+    "parent":"LayoutParams",
+    "properties":
+    {
+        "layout_margin":
+        {
+            "type":"Dimension"
+        },
+        "layout_marginTop":
+        {
+            "type":"Dimension"
+        },
+        "layout_marginLeft":
+        {
+            "type":"Dimension"
+        },
+        "layout_marginBottom":
+        {
+            "type":"Dimension"
+        },
+        "layout_marginRight":
+        {
+            "type":"Dimension"
+        }
+    }
+}

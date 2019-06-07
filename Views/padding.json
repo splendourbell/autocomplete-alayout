@@ -1,0 +1,18 @@
+{
+    "class":"padding",
+    "properties":
+    {
+        "left":{
+        	"type":"Dimension"
+        },
+        "top":{
+            "type":"Dimension"
+        },
+        "right":{
+            "type":"Dimension"
+        },
+        "bottom":{
+            "type":"Dimension"
+        }
+    }
+}

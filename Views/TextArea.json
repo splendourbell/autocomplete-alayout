@@ -1,0 +1,13 @@
+{
+    "class":"TextArea",
+    "parent":"TextView",
+    "properties":
+    {
+        "hint":{
+            "type":"String"
+        },
+        "textColorHint":{
+            "type":"Color"
+        }
+    }
+}

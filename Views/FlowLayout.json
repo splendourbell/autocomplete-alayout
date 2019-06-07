@@ -1,0 +1,16 @@
+{
+    "class": "FlowLayout",
+    "parent": "ViewGroup",
+    "layoutClass":"FlowLayoutParams",
+    "properties":
+    {
+        "gravity":
+		{
+			"type":"Gravity"
+		},
+		"rowGravity":
+		{
+			"type":"Gravity"
+		}
+    }
+}

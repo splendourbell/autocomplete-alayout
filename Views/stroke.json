@@ -1,0 +1,18 @@
+{
+    "class":"stroke",
+    "properties":
+    {
+        "width":{
+        	"type":"Dimension"
+        },
+        "color":{
+            "type":"Color"
+        },
+        "dashWidth":{
+            "type":"Dimension"
+        },
+        "dashGap":{
+            "type":"Dimension"
+        }
+    }
+}

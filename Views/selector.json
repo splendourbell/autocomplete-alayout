@@ -1,0 +1,10 @@
+{
+    "class":"selector",
+    "properties":
+    {
+        "children":
+        {
+            "description":"children"
+        }
+    }
+}

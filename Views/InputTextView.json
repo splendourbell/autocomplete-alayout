@@ -1,0 +1,15 @@
+{
+    "class": "InputTextView",
+    "parent": "RelativeLayout",
+    "layoutClass":"RelativeLayoutParams",
+    "properties": {
+        "hintColor": {
+            "type": "Color",
+            "description": "hint text length color"
+        },
+        "commentColor": {
+            "type": "Color",
+            "description": "norml text length color"
+        }
+    }
+}

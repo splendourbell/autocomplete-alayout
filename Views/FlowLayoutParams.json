@@ -1,0 +1,15 @@
+{
+    "class": "FlowLayoutParams",
+    "parent":"MarginLayoutParams",
+    "properties":
+    {
+        "layout_gravity":
+        {
+            "type":"Gravity"
+        },
+        "layout_widthPercent":
+        {
+            "type":"Int"
+        }
+    }
+}
