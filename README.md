@@ -18,3 +18,6 @@ https://atom.io/
 3 安装完成重启 atom
 
 然后创建一个后缀名为 .json的文件，便会有Alayout布局相关提示
+
+
+https://s33.aconvert.com/convert/p3r68-cdx67/lks9u-vzhjm.gif
