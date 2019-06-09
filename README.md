@@ -2,6 +2,8 @@
 
 Alayout Atom 自动提示插件
 
+![image](https://github.com/splendourbell/ALayout-iOS/blob/master/demo.gif)
+
 用于编写 alayout json布局提示
 
 1 请先安装 Atom 编辑器
@@ -20,4 +22,3 @@ https://atom.io/
 然后创建一个后缀名为 .json的文件，便会有Alayout布局相关提示
 
 
-![image](https://s33.aconvert.com/convert/p3r68-cdx67/lks9u-vzhjm.gif)
