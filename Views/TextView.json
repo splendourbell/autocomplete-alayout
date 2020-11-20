@@ -1,93 +1,70 @@
 {
-    "class":"TextView",
-    "parent":"View",
-    "properties":
-    {
-        "text":
-        {
-            "type":"TextString",
-            "description":"text"
+    "class": "TextView",
+    "parent": "View",
+    "properties": {
+        "text": {
+            "type": "TextString",
+            "description": "text"
         },
-        "textSize":
-        {
-            "type":"Dimension",
-            "description":"textSize"
+        "textSize": {
+            "type": "Dimension",
+            "description": "textSize"
         },
-        "textColor":
-        {
-            "type":"Color",
-            "description":"textColor"
+        "textColor": {
+            "type": "Color",
+            "description": "textColor"
         },
-        "gravity":
-        {
-            "type":"Gravity"
+        "gravity": {
+            "type": "Gravity"
         },
-        "ellipsize":
-        {
-            "suffix":["start","middle","end","none"]
+        "ellipsize": {
+            "suffix": ["start", "middle", "end", "none"]
         },
-        "textAlignment":
-        {
-            "suffix":["textStart","center","textEnd"]
+        "textAlignment": {
+            "suffix": ["textStart", "center", "textEnd"]
         },
-        "width":
-        {
-            "type":"Dimension"
+        "width": {
+            "type": "Dimension"
         },
-        "height":
-        {
-            "type":"Dimension"
+        "height": {
+            "type": "Dimension"
         },
-        "maxWidth":
-        {
-            "type":"Dimension"
+        "maxWidth": {
+            "type": "Dimension"
         },
-        "maxHeight":
-        {
-            "type":"Dimension"
+        "maxHeight": {
+            "type": "Dimension"
         },
-        "typeface":
-        {
-            "type":"String"
+        "typeface": {
+            "type": "String"
         },
-        "textStyle":
-        {
-            "type":"String",
-            "suffix":["bold","italic"]
+        "textStyle": {
+            "type": "String",
+            "suffix": ["bold", "italic", "black", "heavy", "semibold", "medium", "regular", "light", "thin", "ultraLight"]
         },
-        "lines":
-        {
-        },
-        "maxLines":
-        {
+        "lines": {},
+        "maxLines": {
 
         },
-        "minLines":
-        {
+        "minLines": {
 
         },
-        "maxLength":
-        {
+        "maxLength": {
 
         },
-        "lineSpacingExtra":
-        {
+        "lineSpacingExtra": {
 
         },
-        "shadowColor":
-        {
-            "type":"Color"
+        "shadowColor": {
+            "type": "Color"
         },
-        "shadowDx":
-        {
+        "shadowDx": {
 
         },
-        "shadowDy":
-        {
+        "shadowDy": {
 
         },
-        "shadowRadius":
-        {
+        "shadowRadius": {
 
         }
     }
