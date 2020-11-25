@@ -1,66 +1,53 @@
 {
-    "Dimension":
-    {
-        "type":"String",
-        "items":
-        [
-        {
-            "prefix":"(^[+|-]?\\d+\\.?\\d*)(d|dp|p|px|s|sp)?$",
-            "suffix":["dp","px","sp"]
-        },
-        {
-            "suffix":["wrap_content","match_parent"]
-        }
+    "Dimension": {
+        "type": "String",
+        "items": [{
+                "prefix": "(^[+|-]?\\d+\\.?\\d*)(d|dp|p|px|s|sp)?$",
+                "suffix": ["dp", "px", "sp"]
+            },
+            {
+                "suffix": ["wrap_content", "match_parent", "status_bar_height", "safe_area_bottom"]
+            }
         ]
     },
-    "String":
-    {
-        "prefix":".*"
+    "String": {
+        "prefix": ".*"
     },
-    "TextString":
-    {
-        "prefix":"(^@.*)"
+    "TextString": {
+        "prefix": "(^@.*)"
     },
-    "Id":
-    {
-        "type":"String"
+    "Id": {
+        "type": "String"
     },
-    "Float":
-    {
-        "prefix":"(^[+|-]?\\d+\\.?\\d*$)"
+    "Float": {
+        "prefix": "(^[+|-]?\\d+\\.?\\d*$)"
     },
-    "Int":
-    {
-        "prefix":"(^[+|-]?\\d+$)"
+    "Int": {
+        "prefix": "(^[+|-]?\\d+$)"
     },
-    "Bool":
-    {
-        "suffix":["true","false"]
+    "Bool": {
+        "suffix": ["true", "false"]
     },
-    "Drawable":
-    {
-        "type":"String"
+    "Drawable": {
+        "type": "String"
     },
-    "Color":
-    {
-        "type":"String"
+    "Color": {
+        "type": "String"
     },
-    "Layout":
-    {
-        "type":"String"
+    "Layout": {
+        "type": "String"
     },
-    "Script":
-    {
-        "type":"String"
+    "Script": {
+        "type": "String"
     },
-    "Date":
-    {   "type":"String"
+    "Date": {
+        "type": "String"
     },
-    "Gravity":
-    {
-        "suffix":["top","bottom","left","right",
-            "center","center_horizontal","center_vertical",
-            "clip_horizontal","clip_vertical",
-            "fill","fill_horizontal","fill_vertical","start","end"]
+    "Gravity": {
+        "suffix": ["top", "bottom", "left", "right",
+            "center", "center_horizontal", "center_vertical",
+            "clip_horizontal", "clip_vertical",
+            "fill", "fill_horizontal", "fill_vertical", "start", "end"
+        ]
     }
 }
