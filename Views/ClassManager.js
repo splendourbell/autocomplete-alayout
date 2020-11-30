@@ -405,6 +405,7 @@ export default class ClassManager
             let readResourceValues = this.readResourceValues
             subdirs.forEach(function(subdir) {
                 allResName[subdir] = []
+
                 let subfullpath = path.resolve(resourceRootPath, subdir)
                 if(fs.existsSync(subfullpath))
                 {
@@ -433,6 +434,35 @@ export default class ClassManager
                                 }
                                 allResName[subdir].push(filename)
                             }
+                        }
+                        else if(stats.isDirectory())
+                        {
+                            let subdirFiles = fs.readdirSync(fullname);
+                            subdirFiles.forEach(function (subfilename) {
+                                var subFullname = path.join(fullname, subfilename)
+                                var stats = fs.statSync(subFullname)
+                                if (stats.isFile())
+                                {
+                                    if(subdir === 'values')
+                                    {
+                                    }
+                                    else
+                                    {
+                                        let subfilename = path.parse(subFullname).name
+                                        if(subdir === 'script' && subFullname === 'main')
+                                        {
+                                            return;
+                                        }
+                                        let matchNamePre = subfilename.match(/(.+)(?:@1x|@2x|@3x|@4x)/)
+                                        if(matchNamePre && matchNamePre.length >= 2)
+                                        {
+                                            subfilename = matchNamePre[1]
+                                        }
+                                        allResName[subdir].push(filename+"/"+subfilename)
+                                        console.log(filename+"/"+subfilename)
+                                    }
+                                }
+                            })
                         }
                     })
                 }
