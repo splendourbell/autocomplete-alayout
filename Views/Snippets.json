@@ -94,7 +94,7 @@
             "showsHorizontalScrollIndicator": "false",
             "showsVerticalScrollIndicator": "false",
             "estimatedRowHeight": "0dp",
-            "id": "tableView",
+            "id": "tableView"
         }
     }
 ]
