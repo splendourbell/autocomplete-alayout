@@ -63,7 +63,21 @@
             "lines": "1",
             "textColor": "#000",
             "textSize": "14dp",
-            "text": "------"
+            "text": "未绑定数据"
+        }
+    },
+    {
+        "name": "ALabel",
+        "description": "ALabel",
+        "body": {
+            "class": "TextView",
+            "layout_width": "wrap_content",
+            "layout_height": "wrap_content",
+            "ellipsize": "end",
+            "lines": "1",
+            "textColor": "#000",
+            "textSize": "14dp",
+            "text": "未绑定数据"
         }
     },
     {
@@ -95,6 +109,42 @@
             "showsVerticalScrollIndicator": "false",
             "estimatedRowHeight": "0dp",
             "id": "tableView"
+        }
+    },
+    {
+        "name": "background",
+        "description": "background嵌入",
+        "body": {
+            "class": "shape",
+            "shape": "rectangle",
+            "children": [{
+                "class": "corners",
+                "radius": "28dp"
+            }, {
+                "class": "stroke",
+                "width": "1dp",
+                "color": "#ebebeb"
+            }, {
+                "class": "solid",
+                "color": "#FFF"
+            }]
+        }
+    },
+    {
+        "name": "selector",
+        "description": "selector嵌入",
+        "body": {
+            "class": "selector",
+            "children": [{
+                    "class": "item",
+                    "state_selected": "true",
+                    "color": "#FFF"
+                },
+                {
+                    "class": "item",
+                    "color": "#000"
+                }
+            ]
         }
     }
 ]

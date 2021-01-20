@@ -1,0 +1,62 @@
+{
+    "class": "ALabel",
+    "parent": "View",
+    "properties": {
+        "text": {
+            "type": "TextString",
+            "description": "text"
+        },
+        "textSize": {
+            "type": "Dimension",
+            "description": "textSize"
+        },
+        "textColor": {
+            "type": "Color",
+            "description": "textColor"
+        },
+        "gravity": {
+            "type": "Gravity"
+        },
+        "ellipsize": {
+            "suffix": ["start", "middle", "end", "none"]
+        },
+        "textAlignment": {
+            "suffix": ["textStart", "center", "textEnd"]
+        },
+        "width": {
+            "type": "Dimension"
+        },
+        "height": {
+            "type": "Dimension"
+        },
+        "maxWidth": {
+            "type": "Dimension"
+        },
+        "maxHeight": {
+            "type": "Dimension"
+        },
+        "typeface": {
+            "type": "String"
+        },
+        "textStyle": {
+            "type": "String",
+            "suffix": ["bold", "italic", "black", "heavy", "semibold", "medium", "regular", "light", "thin", "ultraLight"]
+        },
+        "lines": {},
+        "maxLength": {
+
+        },
+        "shadowColor": {
+            "type": "Color"
+        },
+        "shadowDx": {
+
+        },
+        "shadowDy": {
+
+        },
+        "shadowRadius": {
+
+        }
+    }
+}
