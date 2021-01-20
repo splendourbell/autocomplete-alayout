@@ -1,7 +1,7 @@
 {
   "name": "autocomplete-alayout",
   "main": "./lib/autocomplete-alayout",
-  "version": "1.4.0",
+  "version": "1.4.1",
   "description": "A short description of your package",
   "keywords": [
     "alayout",
