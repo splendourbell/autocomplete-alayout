@@ -11,6 +11,7 @@ import ClassClass from './Class'
 import View from './View'
 import ViewGroup from './ViewGroup'
 import TextView from './TextView'
+import ALabel from './ALabel'
 import ImageView from './ImageView'
 import Button from './Button'
 import LinearLayout from './LinearLayout'
@@ -54,6 +55,7 @@ export default class ClassManager
             View,
             ViewGroup,
             TextView,
+            ALabel,
             ImageView,
             Button,
             LinearLayout,
