@@ -112,7 +112,7 @@
         }
     },
     {
-        "name": "background",
+        "name": "bg",
         "description": "background嵌入",
         "body": {
             "class": "shape",
